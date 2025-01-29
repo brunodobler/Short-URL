@@ -35,6 +35,11 @@ export const errorsFirebase = (code) => {
         code: "email",
         message: "Credenciales inválidas",
       };
+    case "auth/missing-email":
+      return {
+        code: "email",
+        message:"Ingrese un email válido"
+      };
     default:
       console.log("Ocurrio un error en el server");
       return {

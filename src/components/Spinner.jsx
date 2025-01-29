@@ -2,7 +2,7 @@ import PropTypes from "prop-types";
 
 import Title from "./Title";
 
-const Spinner = ({ text = false }) => {
+const Spinner = ({ text = "" }) => {
   return (
     <>
       <div
